@@ -1,0 +1,64 @@
+2017-01-14T15:21:43.577299000 40.051783s notice: Recursively removing directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data/tmp
+2017-01-14T15:21:43.581395000 40.055886s notice: Initializing directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data
+2017-01-14T15:21:43.581545000 40.056029s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data' did not already exist or is empty.)
+2017-01-14T15:21:43.581583000 40.056066s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-01-14T15:21:43.586744000 40.061228s notice: Running on Darwin 16.3.0 x86_64
+2017-01-14T15:21:43.586781000 40.061264s notice: Loading data from directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data
+2017-01-14T15:21:43.711613000 40.186096s info: Automatically using cache size of 5753 MB
+2017-01-14T15:21:43.712075000 40.186558s notice: Listening for intracluster connections on port 29015
+2017-01-14T15:21:43.714087000 40.188570s notice: Listening for client driver connections on port 28015
+2017-01-14T15:21:43.714248000 40.188731s notice: Listening for administrative HTTP connections on port 8080
+2017-01-14T15:21:43.714255000 40.188738s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-14T15:21:43.714258000 40.188741s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-14T15:21:43.714260000 40.188743s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-14T15:21:43.714263000 40.188746s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-14T15:21:43.714267000 40.188750s notice: Server ready, "MacBook_Pro_de_Jhon_local_4gi" f1079b34-4a20-4fa2-b022-610f7dc5a021
+2017-01-14T15:31:42.086008000 638.560491s warn: Received invalid clustering header from [::1]:50004, closing connection -- something might be connecting to the wrong port.
+2017-01-14T15:31:42.142833000 638.617316s warn: Received invalid clustering header from [::1]:50005, closing connection -- something might be connecting to the wrong port.
+2017-01-14T15:31:47.151049000 643.625532s warn: Received invalid clustering header from [::1]:50006, closing connection -- something might be connecting to the wrong port.
+2017-01-14T15:41:42.506486000 1238.980969s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: Starting a new Raft election for term 1.
+2017-01-14T15:41:42.506879000 1238.981363s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: Added replica on this server.
+2017-01-14T15:41:42.531035000 1239.005518s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-14T15:49:40.965550000 1717.440033s notice: Server got SIGINT from pid 2730, uid 501; shutting down...
+2017-01-14T15:49:40.965781000 1717.440265s notice: Shutting down client connections...
+2017-01-14T15:49:40.965933000 1717.440416s notice: All client connections closed.
+2017-01-14T15:49:40.965940000 1717.440423s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-14T15:49:40.970715000 1717.445198s notice: Storage engine shut down.
+2017-01-14T18:53:13.865772000 0.017143s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-01-14T18:53:13.869838000 0.021204s notice: Running on Darwin 16.3.0 x86_64
+2017-01-14T18:53:13.869866000 0.021232s notice: Loading data from directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data
+2017-01-14T18:53:13.906723000 0.058089s info: Automatically using cache size of 5306 MB
+2017-01-14T18:53:13.907255000 0.058620s notice: Listening for intracluster connections on port 29015
+2017-01-14T18:53:13.923003000 0.074369s notice: Listening for client driver connections on port 28015
+2017-01-14T18:53:13.923169000 0.074535s notice: Listening for administrative HTTP connections on port 8080
+2017-01-14T18:53:13.923170000 0.074536s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-14T18:53:13.923172000 0.074538s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-14T18:53:13.923174000 0.074539s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-14T18:53:13.923180000 0.074545s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-14T18:53:13.923181000 0.074547s notice: Server ready, "MacBook_Pro_de_Jhon_local_4gi" f1079b34-4a20-4fa2-b022-610f7dc5a021
+2017-01-14T18:53:15.207264000 1.358130s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: Starting a new Raft election for term 2.
+2017-01-14T18:53:15.229656000 1.380523s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: This server is Raft leader for term 2. Latest log index is 2.
+2017-01-14T20:25:16.048990000 5522.269916s notice: Server got SIGINT from pid 2730, uid 501; shutting down...
+2017-01-14T20:25:16.049296000 5522.270221s notice: Shutting down client connections...
+2017-01-14T20:25:16.049584000 5522.270509s notice: All client connections closed.
+2017-01-14T20:25:16.049595000 5522.270520s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-14T20:25:16.052136000 5522.273061s notice: Storage engine shut down.
+2017-01-14T20:25:24.273385000 0.011558s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-01-14T20:25:24.276861000 0.015031s notice: Running on Darwin 16.3.0 x86_64
+2017-01-14T20:25:24.276886000 0.015056s notice: Loading data from directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data
+2017-01-14T20:25:24.313029000 0.051199s info: Automatically using cache size of 3373 MB
+2017-01-14T20:25:24.313628000 0.051797s notice: Listening for intracluster connections on port 29015
+2017-01-14T20:25:24.329121000 0.067291s notice: Listening for client driver connections on port 28015
+2017-01-14T20:25:24.329240000 0.067410s notice: Listening for administrative HTTP connections on port 8080
+2017-01-14T20:25:24.329242000 0.067412s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-14T20:25:24.329247000 0.067416s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-14T20:25:24.329248000 0.067417s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-14T20:25:24.329315000 0.067485s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-14T20:25:24.329317000 0.067486s notice: Server ready, "MacBook_Pro_de_Jhon_local_4gi" f1079b34-4a20-4fa2-b022-610f7dc5a021
+2017-01-14T20:25:26.137949000 1.876172s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: Starting a new Raft election for term 3.
+2017-01-14T20:25:26.162400000 1.900623s info: Table 64a62ada-5e52-44a1-a273-942088e3b9d1: This server is Raft leader for term 3. Latest log index is 5.
+2017-01-14T21:17:52.561900000 3148.394489s notice: Server got SIGINT from pid 2730, uid 501; shutting down...
+2017-01-14T21:17:52.562179000 3148.394767s notice: Shutting down client connections...
+2017-01-14T21:17:52.562301000 3148.394889s notice: All client connections closed.
+2017-01-14T21:17:52.562308000 3148.394895s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-14T21:17:52.565452000 3148.398040s notice: Storage engine shut down.

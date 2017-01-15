@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Author</title>
+</head>
+<body>
+
+<form action="update/" method="post">
+    <input type="hidden" name="id" value="{{ .ID }}">
+    <input type="text" name="name" value="{{ .Name }}" placeholder="Nombre">
+    <input type="submit" value="Actualizar">
+</form>
+
+</body>
+</html>
