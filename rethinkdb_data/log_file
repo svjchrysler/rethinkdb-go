@@ -62,3 +62,8 @@
 2017-01-14T21:17:52.562301000 3148.394889s notice: All client connections closed.
 2017-01-14T21:17:52.562308000 3148.394895s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2017-01-14T21:17:52.565452000 3148.398040s notice: Storage engine shut down.
+2017-01-29T22:07:24.999480000 0.025546s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-01-29T22:07:25.005811000 0.031874s notice: Running on Darwin 16.3.0 x86_64
+2017-01-29T22:07:25.005853000 0.031915s notice: Loading data from directory /Users/jhonsalguero/Projects/Golang/src/github.com/salguero/apirest-rethinkdb/rethinkdb_data
+2017-01-29T22:07:25.041823000 0.067885s info: Automatically using cache size of 143 MB
+2017-01-29T22:07:25.044335000 0.070398s error: TCP socket creation failed for port 29015: Address already in use.
